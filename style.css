@@ -1,0 +1,111 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.header {
+    background: #56ccf2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #56ccf2, #2f80ed); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56ccf2, #2f80ed);
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: stretch;   
+    border-bottom: solid black 2.5px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.title {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    text-shadow: 0.5px 3px black;
+    font-size: 4em;
+    padding-bottom: 0em;
+}
+
+.main {
+    display: flex;
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1.5px solid;
+    padding-bottom: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 700px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 180px;
+    margin-top: 0px;
+}
+
+.scoreboard {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   height: max-content;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 30px;
+   padding-bottom: 60px;
+   font-family: 'Pacifico', cursive;
+   font-weight: lighter;
+   color: white;
+   text-shadow: 0.5px 3px black;
+}
+
+.score {
+    font-family: 'Pacifico', cursive;
+   font-weight: bold;
+   color: white;
+   font-size: 30px;
+}
+
+.score-info {
+    padding-bottom: 5px;
+    font-size: 50px;
+}
+
+.points-info {
+   font-size: 40px;
+}
+
+.scores-container {
+    padding-top: 60px;
+    display: flex;
+}
+
+.player-box {
+    margin-right: 50px;
+}
+
+.computer-box {
+    margin-left: 50px;
+}
+
+.sign {
+    font-size: 70px;
+}
+
+.btn-light {
+    margin: 20px;
+    background-color: blanchedalmond;
+    border: 0px;
+    width: 150px;
+    height: 150px;
+    
+}

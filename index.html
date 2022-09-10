@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+      />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="title">Rock & Paper & Scissors</h1>
+    </header>
+
+    <main class="main"> 
+
+      <div class="scoreboard">
+        <h2 class="score-info" id="scoreInfo">Make your choice!</h2>
+        <h3 class="points-info" id="scoreMessage">First to score 5 points wins the round!</h3>
+        <h4 clas="win-or-lose-message" id="win-lose"></h4>
+        <div class="scores-container">
+          <div class="player-box">
+            <h4 class="score">Player:<span id="playerScore" value="0">0</span></h4>
+          </div>
+          <div class="computer-box">
+            <h4 class="score">Computer:<span id="computerScore" value="0">0</span></h4>
+          </div>
+        </div>
+      </div>
+      <div class="buttons" id="choices">
+        <button class="btn btn-light" id="rockBtn">
+          <div class="sign">✊</div>
+        </button>
+        <button class="btn btn-light" id="paperBtn">
+          <div class="sign">🖐</div>
+        </button>
+        <button class="btn btn-light" id="scissorsBtn">
+          <div class="sign">✌</div>
+        </button>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-light" id="start">Play!</button>
+      </div>
+     
+
+    </main>
+
+    <!-- <footer class="footer">
+      <div>
+        <h4>Copyright</h4>
+      </div>
+    </footer> -->
+  </body>
+</html>
